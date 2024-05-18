@@ -1,0 +1,60 @@
+.adduser{
+    position: absolute;
+    padding: 30px;
+    border-radius: 10px;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: rgba(46, 46, 104, 0.658);
+    border-radius: 10px;
+    bottom: 0;
+    width: max-content;
+height: max-content;
+margin: auto;
+form{
+    display: flex;
+    gap: 20px;
+    input{
+        padding: 20px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    button{
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #1a73e8;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+}
+.user{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    .details
+    {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-between;
+        img{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+    }
+    button{
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #1a73e8;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+}
+}
